@@ -82,33 +82,23 @@ const ReadListPage = () => {
                         <i className='BsThreeDots-icon'>
                             < BsThreeDots />
                         </i>
-
                     </div>
 
                     <div className="readList-story-wrapper">
-
-                        {readList.length !== 0 ?
+                        {readList?.length !== 0 ?
                             <>
-                                {readList.map(story => {
+                                {readList?.map(story => {
                                     return (
                                         <ReadListStoryItem key={story._id} story={story} editDate={editDate} />
-
                                     )
                                 })}
                             </>
-
                             :
-
                             <div className="empty-readList">
-
                                 Reading List is empty
-
                             </div>
                         }
-
-
                     </div>
-
                 </div>
             }
         </>
