@@ -17,14 +17,11 @@ MONGO_URI =  <br />
 JWT_SECRET_KEY = <br />
 JWT_EXPIRE = 60m <br />
 RESET_PASSWORD_EXPIRE = 3600000  <br />
-
-# Nodemailer
-
 SMTP_HOST = <br />
 SMTP_PORT = <br />
 EMAIL_USERNAME = <br />
 EMAIL_PASS = <br />
 
-5) after that just do npm start
+5) after that just do npm start <br />
 
-  Thats it ..  if felt any difficulty ping me at my linkedin account linked in my profile
+  Thats it ..  if felt any difficulty ping me at my linkedin account linked in my profile <br />
