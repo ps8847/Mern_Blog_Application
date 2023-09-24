@@ -10,15 +10,13 @@ if you want to use/run our Blogigng appplictaion just follow these steps :
 3) in Backend/ make a folder Config
 4) in Config folder make file config.env and fill these following parametrs :
 
-   #  ---  Config.env  ---
-
-NODE_ENV = development
-PORT =5000
-URI =http://localhost:3000
-MONGO_URI = 
-JWT_SECRET_KEY = 
-JWT_EXPIRE = 60m
-RESET_PASSWORD_EXPIRE = 3600000 
+NODE_ENV = development <br />
+PORT =5000 <br />
+URI =http://localhost:3000 <br />
+MONGO_URI =  <br />
+JWT_SECRET_KEY = <br />
+JWT_EXPIRE = 60m <br />
+RESET_PASSWORD_EXPIRE = 3600000  <br />
 
 # Nodemailer
 
