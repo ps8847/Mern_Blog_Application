@@ -20,10 +20,10 @@ RESET_PASSWORD_EXPIRE = 3600000  <br />
 
 # Nodemailer
 
-SMTP_HOST = 
-SMTP_PORT =
-EMAIL_USERNAME = 
-EMAIL_PASS = 
+SMTP_HOST = <br />
+SMTP_PORT = <br />
+EMAIL_USERNAME = <br />
+EMAIL_PASS = <br />
 
 5) after that just do npm start
 
