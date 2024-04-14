@@ -88,8 +88,8 @@ const Home = () => {
             <img className="bg-planet3-svg" src="planet3.svg" alt="planet" />
 
           </div>
-          {stories?.length !== 0 &&
-          <Pagination page={page} pages={pages} changePage={setPage} />}
+          {stories?.length !== 0 ?
+          <Pagination page={page} pages={pages} changePage={setPage} /> : ""}
 
         </div>
 
