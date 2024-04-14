@@ -6,7 +6,7 @@ import { TiMinus } from 'react-icons/ti'
 const Pagination = ({ page, pages, changePage }) => {
     function numberRange(start, end) {
         if(end > start){
-            return new Array(end - start).fill().map((d, i) => i + start);
+            return new Array(end - start).fill()?.map((d, i) => i + start);
 
         }
     }
@@ -14,7 +14,7 @@ const Pagination = ({ page, pages, changePage }) => {
     let middlePagination;
 
     if (pages <= 5) {
-        middlePagination = [...Array(pages)].map((__, index) => (
+        middlePagination = [...Array(pages)]?.map((__, index) => (
 
             <button
                 key={index + 1}
@@ -32,7 +32,7 @@ const Pagination = ({ page, pages, changePage }) => {
 
         middlePagination = (
             <>
-                {numberRange(startValue, pages).map((__, index) => (
+                {numberRange(startValue, pages)?.map((__, index) => (
                     <button
                         key={startValue + index + 1}
                         onClick={() => changePage(startValue + index + 1)}
@@ -59,7 +59,7 @@ const Pagination = ({ page, pages, changePage }) => {
                         <button>...</button>
                         <button onClick={() => changePage(startValue)}>{startValue}</button>
 
-                        {numberRange(startValue, pages).map((__, index) => (
+                        {numberRange(startValue, pages)?.map((__, index) => (
                             <button
                                 key={startValue + index + 1}
                                 onClick={() => changePage(startValue + index + 1)}
@@ -87,7 +87,7 @@ const Pagination = ({ page, pages, changePage }) => {
                         <button onClick={() => changePage(1)}>1</button>
                         <button>...</button>
                         <button onClick={() => changePage(startValue)}>{startValue}</button>
-                        {numberRange(amountLeft, pages).map((__, index) => (
+                        {numberRange(amountLeft, pages)?.map((__, index) => (
                             <button
                                 key={startValue + index + 1}
                                 onClick={() => changePage(startValue + index + 1)}

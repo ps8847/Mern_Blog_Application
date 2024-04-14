@@ -113,7 +113,7 @@ const CommentItem = ({ comment, activeUser }) => {
 
                 <div className="comment-star">
                     {
-                        [...Array(5)].map((_, index) => {
+                        [...Array(5)]?.map((_, index) => {
                             return (
                                 <FaStar
                                     key={index}

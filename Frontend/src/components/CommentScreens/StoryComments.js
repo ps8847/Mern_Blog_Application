@@ -11,7 +11,7 @@ const StoryComments = ({ commentlist, count, activeUser }) => {
                     <h5>MOST RELEVANT</h5>
                     <div className="comment-Wrapper">
                         {
-                            commentlist.map((comment) => {
+                            commentlist?.map((comment) => {
                                 return (
                                     <CommentItem key={comment._id} comment={comment} activeUser={activeUser} />
                                 )

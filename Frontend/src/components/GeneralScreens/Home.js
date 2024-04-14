@@ -65,7 +65,7 @@ const Home = () => {
 
         <div className="skeleton_emp">
           {
-            [...Array(6)].map(() => {
+            [...Array(6)]?.map(() => {
               return (
                 // theme dark :> default : light
                 <SkeletonStory key={uuidv4()} />

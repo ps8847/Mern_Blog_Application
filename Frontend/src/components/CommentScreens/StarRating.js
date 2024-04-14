@@ -21,7 +21,7 @@ const StarRating = ({ setStar, setStarCurrentVal, starCurrentVal }) => {
 
             {
 
-                [...Array(5)].map((_, index) => {
+                [...Array(5)]?.map((_, index) => {
 
                     return (
                         <FaStar
