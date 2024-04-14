@@ -7,7 +7,7 @@
         "start": "nodemon index.js "
     },
     "keywords": [],
-    "author": "Gilbert Hutapea ",
+    "author": "Prince ",
     "license": "ISC",
     "dependencies": {
         "bcryptjs": "^2.4.3",
