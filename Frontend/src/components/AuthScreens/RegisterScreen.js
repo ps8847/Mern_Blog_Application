@@ -24,7 +24,7 @@ const RegisterScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "/auth/register",
+        "https://mern-blog-application-5lf6.onrender.com/auth/register",
         {
           username,
           email,

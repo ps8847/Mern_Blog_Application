@@ -25,7 +25,7 @@ const ResetPasswordScreen = () => {
 
     try {
       const { data } = await axios.put(
-        `/auth/resetpassword?resetPasswordToken=${token}`,
+        `https://mern-blog-application-5lf6.onrender.com/auth/resetpassword?resetPasswordToken=${token}`,
         {
           password,
         }

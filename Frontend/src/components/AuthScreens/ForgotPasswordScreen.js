@@ -13,7 +13,7 @@ const ForgotPasswordScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "/auth/forgotpassword",
+        "https://mern-blog-application-5lf6.onrender.com/auth/forgotpassword",
         { email }
       );
 

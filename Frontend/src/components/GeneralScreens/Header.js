@@ -65,7 +65,7 @@ const Header = () => {
 
                                     :
 
-                                    <img src={`/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
+                                    <img src={`https://mern-blog-application-5lf6.onrender.com/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
 
                                 }
 

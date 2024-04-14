@@ -27,7 +27,7 @@ const EditProfile = () => {
         formdata.append("photo", photo)
 
         try {
-            const { data } = await axios.post("/user/editProfile", formdata, config)
+            const { data } = await axios.post("https://mern-blog-application-5lf6.onrender.com/user/editProfile", formdata, config)
 
             setSuccess('Edit Profile successfully ')
             setTimeout(() => {
@@ -119,7 +119,7 @@ const EditProfile = () => {
                                     <div class="absolute">
                                         Currently Image
                                     </div>
-                                    <img src={`http://localhost:5000/${previousPhoto}`} alt="userPhoto" />
+                                    <img src={`https://mern-blog-application-5lf6.onrender.com/${previousPhoto}`} alt="userPhoto" />
                                 </div>
 
                             </div>
